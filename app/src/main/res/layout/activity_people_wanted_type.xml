@@ -17,7 +17,7 @@
         tools:context=".PeopleWantedType">
     <TextView
             android:text="PEOPLE WANTED TYPE"
-            android:textColor="@color/orange"
+            android:textColor="#000"
             android:textSize="30sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             android:orientation="vertical"
     >
         <ImageView
-                app:srcCompat="@drawable/ic_upload"
+                app:srcCompat="@drawable/icon_uploadd"
                 android:layout_height="match_parent"
                 android:layout_width="wrap_content"
                 android:layout_gravity="center"
@@ -48,9 +48,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#fff"
-                android:textStyle="bold"
-                android:textSize="26sp"
+                android:textColor="#000"
+                android:textSize="15sp"
         />
     </LinearLayout>
 
@@ -102,12 +101,12 @@
     />
 
     <Button
-            android:background="@drawable/shape_button"
+            android:background="@drawable/button"
             android:textColor="#fff"
             android:text="POST"
             android:textStyle="bold"
             android:id="@+id/post_peoplewanted"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="15dp"
