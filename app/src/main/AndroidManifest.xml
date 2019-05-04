@@ -9,16 +9,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".FragmentProfil">
-        </activity>
-        <activity android:name=".FragmentMessage">
-        </activity>
-        <activity android:name=".FragmentAddNew">
-        </activity>
-        <activity android:name=".FragmentSearch">
-        </activity>
-        <activity android:name=".FragmentHome">
-        </activity>
+
         <activity android:name=".FullCostType">
         </activity>
         <activity android:name=".OtherAskType">
